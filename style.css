@@ -18,6 +18,17 @@ img.logo2{
     margin-left: 15px;
 }
 
+.div-header .title{
+    color: white;
+    left: 340px;
+    position: absolute;
+    padding: 40px;
+}
+.div-header h1{
+    text-align: center;
+}
+
+
 .div-header{
     background-color: #0f0f0f;
     /* max-height: 240px; */
