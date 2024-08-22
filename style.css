@@ -6,11 +6,6 @@
     box-sizing: border-box;
 }
 
-header{
-    width: 100%;
-    height: 80%;
-}
-
 img.logo2{
     width: 150px;
     position: relative;
@@ -18,31 +13,49 @@ img.logo2{
     margin-left: 15px;
 }
 
-.div-header .title{
+/* .div-header .title{
     color: white;
-    left: 340px;
+    left: 300px;
     position: absolute;
-    padding: 40px;
+    padding: px;
+} */
+
+.div-header .div-title-img{
+    display: flex;
+    flex-direction: row;
 }
+
+.div-header .title-img{
+    position: relative;
+    display: inline-block;
+    object-fit: cover;
+    width: 40%;
+}
+
+.div-header .title-img2{
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    object-fit: cover;
+}
+
 .div-header h1{
     text-align: center;
 }
 
-
 .div-header{
     background-color: #0f0f0f;
-    /* max-height: 240px; */
 }
 
 #lista-top, a{
     color: white;
-    gap: 10px;
+    gap: 0px;
     list-style: none;
     display: flex;
     float: right;
-    margin-top: 16px;
+    margin-top: 14px;
     align-items: center;
-    margin-right: 14px;
+    margin-right: 10px;
 }
 
 .Inicio{
