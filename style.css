@@ -49,12 +49,16 @@ img.logo2{
 
 #lista-top, a{
     color: white;
-    gap: 0px;
+    gap: 20px;
     list-style: none;
     display: flex;
     float: right;
     margin-top: 14px;
     align-items: center;
+    margin-right: 10px;
+}
+
+#lista-top i{
     margin-right: 10px;
 }
 
@@ -146,7 +150,7 @@ section .menu a div {
     width: 100%;
     height: 100%;
     text-align: center;
-    background-color: rgba(32, 30, 30, 0.26);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 5px;
 }
@@ -169,6 +173,10 @@ footer .lis-footer .container-lis{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+footer .lis-footer .container-lis li{
+    margin-bottom: 5px;
 }
 
 footer .Cash-icon{
